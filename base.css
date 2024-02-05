@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    /* background: #000; */
+}
+
+.Container {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background: blue;
+    justify-content: flex-start;
+}
+
+
+/* 
+.Container {
+    display: flex;
+    border: 3px solid black;
+    padding: 5px;
+    background-color: aquamarine;
+    flex-direction: row;
+    justify-content: center;
+    text-indent: 50px;
+
+} */
+
+main {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+
+}
+
+section {
+    height: 100vh;
+    width: 150px;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.box {
+    height: 200px;
+    width: 125px;
+    background: #fff;
+    margin: 5px;
+}
+
+.side__content {
+    width: 100%;
+    height: 100vh;
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background: white;
+    text-align: center;
+}
+
+.box1 {
+    width: 100%;
+    height: 450px;
+    background: #000;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box3 {
+    height: 180px;
+    width: 250px;
+    background: #fff;
+    margin: 5px;
+    margin-top: 50px;
+    border-color: aqua;
+    border-style: solid;
+    border-width: 40px;
+
+
+
+}
+
+footer {
+    padding: 15px;
+    margin: 10px;
+    width: 100%;
+    background-color: red;
+
+}
+
+.flexItem {
+    padding: 10px;
+    display: flex;
+
+}
+.c1
+{
+   display:flex;
+   margin-left: 60%;
+   margin-top: 20px;
+   
+}
+.header
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* .huContainer {
+    display: flex;
+    padding: 70px;
+    margin-left: 170px;
+    margin-bottom: 40px;
+    background-color: blue;
+    justify-content: center;
+
+}
+
+.new {
+    display: inline-block;
+    border: 20px solid black;
+    padding: 30px;
+    width: 341px;
+    background-color: blueviolet;
+} */
+
+/* .Footer {
+    display: flex;
+    border: 30px;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: brown;
+} */
+
+/* 
+.maincon {
+    display: flex;
+} */
